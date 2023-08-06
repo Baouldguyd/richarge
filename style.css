@@ -1,0 +1,624 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+body{
+    height: 400vh;
+}
+
+#header{
+    height: 30vh;
+    background-color: white;
+}
+
+.header-div{
+    height: 3rem;
+    background-color: blue;
+}
+
+.head-ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+
+}
+
+li{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+li:hover{
+    cursor: pointer;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.richarge-logo{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid blue;
+    
+}
+
+.nav-ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 3rem;
+}
+
+.material-symbols-outlined {
+    color: blue;
+    margin: 3rem;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
+.nav-li{
+    color: blue;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.main{
+    height:200vh;
+    
+}
+
+.hero-section{
+    height: 50vh;
+    
+    background-image: url("./assets/lady.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+.color-overlay {
+    
+    position: absolute;
+    top: 20;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 255, 0.315); /* Change this to your desired color */
+}
+.content{
+    display: block;
+    margin: auto;
+    margin: 5rem;
+}
+.welcome-text{
+    margin-bottom: 1rem;
+}
+
+h1{
+    color: white;
+    font-weight: bolder;
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+
+.buttonDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.login-btn,.register-btn{
+    width: 6rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.315);
+    color: white;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+
+}
+
+
+.data-section{
+height: 80vh;
+background-color: white;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+padding: 2rem;
+}
+
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+span, .enjoy-p{
+    color: rgb(119,89,225);
+    text-align: center;
+}
+.enjoy-p,.discount-text{
+    font-size: 1.5rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+.three{
+    font-size: 2rem;
+}
+
+.data-span{
+    font-size: 1.5rem;
+}
+h3,h2{
+    text-align: center;
+    color: rgb(119,89,225);
+    font-size: 2rem;
+}
+
+.img-contain{
+    width: 10rem;
+    height: 4rem;
+    display: block;
+    margin: auto;
+}
+.images,.part-img{
+    width: 100%;
+    height: 100%;
+}
+
+.app-platforms{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.app{
+    margin-top: 2rem;
+}
+
+.partner{
+    margin-top: 2rem;
+}
+.partners-img{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.partners-image{
+    width: 4rem;
+    height: 3rem;
+}
+
+.down-section{
+    height: 80vh;
+    background-color: white
+}
+.recharge p{
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(119,89,225);
+}
+.recharge-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.recharge-boxes{
+    width: 10rem;
+    background-color: rgb(119,89,225);
+    margin-left: 1rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 5px 3px;
+
+}
+
+
+
+
+.recharge-img{
+    margin-top: 1rem;
+    width: 100%;
+    background-color: white;
+}
+
+.rech-img{
+    width: 100%;
+}
+
+.recharge-text h4{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.recharge-text p {
+    color: white;
+    font-weight: lighter;
+        
+    
+}
+
+.rech-button{
+    margin-top: 1rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    width: 5rem;
+    height: 3rem;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    color: rgb(119,89,225);
+}
+
+.contact-section{
+    height: 70vh;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.mobile-div{
+    width: 60%;
+    height: 70%;
+    display: block;
+    margin: auto;
+}
+
+.mobile{
+    width: 100%;
+    height: 100%;
+}
+
+.learn-div{
+    height: 50vh;
+    background-color: white;
+}
+.youtube-div{
+    width: 30rem;
+    height: 15rem;
+    display: block;
+    margin: auto;
+}
+
+
+.youtube-video{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    height: 90vh;
+    background-color: rgb(30,33,39);
+    padding: 5rem;
+}
+
+.footer-div{
+    
+    height: 100%;
+}
+
+.line{
+    height: 2px;
+    background-color: rgba(121, 110, 91, 0.61);
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.foot-section-div{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-top: 2rem;
+    color: rgb(119,129,121);
+}
+
+
+.foot-section-two ul li, .foot-section-three ul li{
+    font-size: 1rem;
+}
+
+.foot-section-one div{
+    width: 80%;
+    
+}
+
+.address{
+    margin-top: 2rem;
+
+}
+
+.foot-section-one div p, .foot-section-two ul li, .foot-section-three ul li {
+    color: rgb(119,129,121);
+}
+
+.copyright{
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.isabi-tech, .terms {
+    font-size: 0.8rem;
+    color:rgb(119,129,121)
+}
+
+button:hover{
+    background-color: red;
+    
+    
+}
+
+li:hover{
+    color: red;
+}
+
+.recharge-boxes:hover{
+    transform: scale(1.1);
+}
+
+.whatsapp:hover,.playstore:hover,.loginbtn:hover{
+    transform: scale(1.1);
+}
+
+
+/* Add your existing CSS styles here */
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    body {
+      height: auto;
+    }
+    
+    /* Header */
+    .nav-ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    /* Hero Section */
+    .hero-section {
+      height: 30vh;
+    }
+  
+    .welcome-text {
+      text-align: center;
+    }
+  
+    /* .buttonDiv {
+      flex-direction: column;
+      align-items: center;
+    } */
+  
+    /* Data Section */
+    .data-section {
+      grid-template-rows: auto auto auto;
+    }
+  
+    .data-price, .discount, .enjoy-dicount {
+      text-align: center;
+      margin-top: 1rem;
+    }
+  
+    .data-span {
+      font-size: 1rem;
+    }
+  
+    /* App Section */
+    .app-platforms {
+      justify-content: center;
+    }
+  
+    /* Partner Section */
+    .partners-img {
+      justify-content: center;
+    }
+  
+    /* Down Section */
+    .recharge-boxes {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    /* Contact Section */
+    .mobile-div {
+      width: 80%;
+      height: 50%;
+    }
+  
+    /* Learn Section */
+    .youtube-div {
+      width: 90%;
+      height: 30rem;
+    }
+  
+    /* Footer Section */
+    .footer {
+      padding: 2rem;
+    }
+  
+    .foot-section-div {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  
+    .foot-section-two, .foot-section-three {
+      text-align: center;
+      margin-top: 2rem;
+    }
+  
+    .line {
+      display: none;
+    }
+  
+    .isabi-tech, .terms {
+      text-align: center;
+    }
+  
+    /* Adjust button styles for mobile */
+    .login-btn, .register-btn, .rech-button {
+      width: 50%;
+    }
+ #header{
+    height: 12vh;
+ }
+
+
+ .header-nav{
+    height: 4rem;
+ }
+
+    .nav-ul{
+        display: none;
+    }
+
+    .logo{
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+.color-overlay{
+    height: 30vh;
+}
+
+.content{
+    height: 60%
+}
+
+.welcome-text{
+    height: 4rem;
+}
+
+.welcome-text h1, .welcome-text p{
+    font-size: smaller;
+}
+
+.welcome-text p {
+    font-weight: lighter;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-btn, .register-btn {
+    width: 30% ;
+    margin-top: 1rem;
+}
+}
+  
+@media only screen and (max-width:532px) {
+    .login-btn, .register-btn {
+        width: 30% ;
+        margin-top: 1rem;
+    }
+
+    .content{
+        margin-bottom: 5rem;
+    }
+
+    .contact-section{
+        height: 50vh;
+    }
+
+    .youtube-video{
+        height: 40vh;
+    }
+}
+
+
+@media only screen and (max-width:414px) {
+    .login-btn, .register-btn {
+        width: 30% ;
+        margin-top: 5rem;
+        
+        height: 2rem;
+    }
+
+    .youtube-video{
+        height: 30vh;
+    }
+
+    .discount,.enjoy-dicount,.data-price{
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .recharge{
+        margin-top: 6rem;
+    } 
+
+    
+
+    
+}
+
+
+
+@media only screen and (max-width:373px) {
+    .login-btn, .register-btn{
+        margin-top: 6rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
